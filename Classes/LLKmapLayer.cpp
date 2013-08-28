@@ -31,6 +31,7 @@ LLKmapLayer::~LLKmapLayer(){
 	{
 		hitArray->autorelease();
 	}
+
 }
 CCScene* LLKmapLayer::scene(){
 	CCScene* scene=CCScene::create();
